@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiajibakan.addcontract.AddActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="省会/直辖市 列表"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <com.brioal.labelview.LabelView
+        android:id="@+id/add_label_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.brioal.labelview.LabelView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="城市 列表"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <com.brioal.labelview.LabelView
+        android:id="@+id/add_label_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.brioal.labelview.LabelView>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/add_et_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入个数"/>
+
+    <Button
+        android:id="@+id/add_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成并添加到通讯录"/>
+</LinearLayout>
